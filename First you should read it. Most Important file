@@ -1,0 +1,30 @@
+##################################################################################
+
+"ex3.m" is main folder which include all function.
+
+Other some folder contains the function which is call in "ex3.m" folder.
+
+
+####################################################################################
+
+
+ex3.mlx - MATLAB Live Script that steps you through the exercise
+ex3data1.mat - Training set of hand-written digits
+ex3weights.mat - Initial weights for the neural network exercise
+displayData.m - Function to help visualize the dataset
+fmincg.m - Function minimization routine (similar to fminunc)
+sigmoid.m - Sigmoid function
+lrCostFunction.m - Logistic regression cost function
+oneVsAll.m - Train a one-vs-all multi-class classifier
+predictOneVsAll.m - Predict using a one-vs-all multi-class classifier
+
+
+###################################################################################
+
+
+There is data set in ex3data1.mat that contains 5000 training examples of handwritten digits.  
+There are 5000 training examples in ex3data1.mat, where each training example is a 20 pixel
+by 20 pixel grayscale image of the digit. Each pixel is represented by a floating point number 
+indicating the grayscale intensity at that location. The 20 by 20 grid of pixels is 'unrolled' 
+into a 400-dimensional vector. Each of these training examples becomes a single row in our data matrix X. 
+This gives us a 5000 by 400 matrix X where every row is a training example for a handwritten digit image.
